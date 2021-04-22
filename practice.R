@@ -1,1 +1,3 @@
-x <- 1
+# sample size of 100
+Y <- rnorm(100)
+hist(Y)
