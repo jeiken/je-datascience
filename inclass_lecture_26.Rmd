@@ -1,0 +1,25 @@
+---
+title: "Lecture 26"
+author: "Julia Eiken"
+date: "4/22/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+This is practice with GitHub for lecture 26. 
+
+```{r}
+# sample size of 100
+Y <- rnorm(100)
+hist(Y)
+```
+
+![This is a portrait of Carl Gauss]("carl gauss.jpeg")
+
+Carl Friedrich Gauss was a German mathematician considered to be one of the greatest of all time. 
+
+I don't think it makes sense to include the pdf output of the RMarkdown because the pdf can always be recreated by knitting the rmd file. There's no need to have a ton of duplicates because each will be varying levels of incomplete. 
